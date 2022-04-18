@@ -1958,7 +1958,10 @@ header .header-logo a {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	opacity: .35;
+	opacity: .15;
+    	-webkit-transform: scaleX(-1);
+   	transform: scaleX(-1);
+
 }
 
 .about-wrap {
