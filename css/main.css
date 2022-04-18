@@ -3083,6 +3083,10 @@ footer {
 	position: relative;
 }
 
+.copyright {
+	opacity: .3;
+}
+
 footer .footer-social {
 	list-style: none;
 	display: inline-block;
