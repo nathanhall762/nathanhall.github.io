@@ -2466,6 +2466,12 @@ header .header-logo a {
 	clear: both;
 }
 
+.portfolio-block {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
  * ------------------------------------------------------------------- */
