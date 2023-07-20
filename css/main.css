@@ -3192,10 +3192,10 @@ footer .footer-social li:last-child {
 	align-content: center;
 	justify-content: center;
 	background-color: #FFFFFF;
-	width: 50vh;
+/* 	width: 50vh; */
 	height: 50vh;
 	text-align: center;
-	padding: 5rem;
+	padding: 5rem 0;
 	cursor: pointer;
 }
 
