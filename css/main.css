@@ -3241,3 +3241,33 @@ footer .footer-social li:last-child {
 	align-items: center;
 	width: 100vw;
 }
+
+.resumeContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	/* width: 100vw; */
+}
+
+#resume {
+	background: #EBEBEB;
+	min-height: 0;
+	position: relative;
+	padding: 12rem 15rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+#resume img {
+	width: 100%;
+	height: auto;
+	max-width: 100vw;
+}
+
+#resume .row {
+	width: 90vw;
+}
