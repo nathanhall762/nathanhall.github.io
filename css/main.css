@@ -3195,7 +3195,7 @@ footer .footer-social li:last-child {
 /* 	width: 50vh; */
 	height: 50vh;
 	text-align: center;
-	padding: 5rem 0;
+	padding: 5rem 1rem;
 	cursor: pointer;
 }
 
