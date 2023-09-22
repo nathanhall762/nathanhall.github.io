@@ -3203,6 +3203,8 @@ footer .footer-social li:last-child {
 	width: 50vh;
 	height: 50vh;
 	cursor: pointer;
+	object-fit: cover;
+	object-position: center;
 }
 
 .portfolioEntry {
@@ -3212,26 +3214,6 @@ footer .footer-social li:last-child {
 	height: 50vh;
 	margin: 5vh;
 	width: 100vh;
-}
-
-@media only screen and (max-width:768px) {
-	.portfolioEntry {
-		flex-direction: column;
-		width: 100vw;
-	}
-
-	.section-intro {
-		margin: 0;
-	}
-
-	.portfolioEntry {
-		height: auto;
-	}
-
-	.otherProject {
-		flex-direction: column-reverse;
-	} 
-
 }
 
 .column {
@@ -3255,19 +3237,41 @@ footer .footer-social li:last-child {
 	background: #EBEBEB;
 	min-height: 0;
 	position: relative;
-	padding: 12rem 15rem;
+	padding: 5rem 0 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	/* justify-content: space-between; */
 }
 
-#resume img {
+#resume embed {
 	width: 100%;
 	height: auto;
 	max-width: 100vw;
+	height: 1400px;
 }
 
-#resume .row {
-	width: 90vw;
+
+@media only screen and (max-width:768px) {
+	.portfolioEntry {
+		flex-direction: column;
+		width: 100vw;
+	}
+
+	.section-intro {
+		margin: 0;
+	}
+
+	.portfolioEntry {
+		height: auto;
+	}
+
+	.otherProject {
+		flex-direction: column-reverse;
+	}
+	
+	#resume embed {
+		height: 500px;
+		width: 100vw;
+	}
 }
